@@ -46,7 +46,7 @@ def home():
 async def detect(data: dict):
     print(data)
     video_url = data.get("filePath")
-    video_url = f'C:/Users/huns1/OneDrive/바탕 화면/Project_Everytime/{video_url}'
+    video_url = f'C:/Users/huns1/OneDrive/바탕 화면/Project/{video_url}'
     video_name = data.get("VidName")
     
     print(video_url)
@@ -59,7 +59,7 @@ async def detect(data: dict):
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    output_path = "C:/Users/huns1/OneDrive/바탕 화면/Project_Everytime/upload/analysis/" + output_video_name
+    output_path = "C:/Users/huns1/OneDrive/바탕 화면/Project/upload/analysis/" + output_video_name
     output_stream = cv2.VideoWriter(output_path , fourcc, fps, (width, height))
 
     print('model start')
