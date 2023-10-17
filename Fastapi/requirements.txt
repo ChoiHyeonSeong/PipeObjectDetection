@@ -1,0 +1,8 @@
+fastapi==0.101.0
+uvicorn==0.23.2
+torch==2.0.1
+Pillow==10.0.0
+opencv-python==4.8.1.78
+pandas==2.1.1
+requests==2.31.0
+ultralytics==8.0.193
