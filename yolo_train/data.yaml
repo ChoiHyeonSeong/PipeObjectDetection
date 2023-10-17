@@ -1,0 +1,6 @@
+
+train: /workspace/LBW-Intern/¿õ±â/train.txt
+val: /workspace/LBW-Intern/¿õ±â/val.txt 
+
+nc: 3
+names: ['corrosion', 'crack', 'boring']
