@@ -1,2 +1,2 @@
-# Pipe_yolo
+# PipeObjectDetection
 배관 객체탐지
